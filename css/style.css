@@ -675,3 +675,36 @@ address {
     border-color: var(--ocean);
     cursor: pointer;
 }
+
+.modal {
+    padding: 30px;
+}
+
+.user-contact {
+    margin-top: 12px;
+}
+
+.user-contact label {
+    display: block;
+    margin-top: 12px;
+}
+
+.user-contact input {
+    display: block;
+    width: 100%;
+}
+
+label.user-contact-checkbox {
+    display: flex;
+}
+
+.user-contact-checkbox input {
+    width: 16px;
+    height: 16px;
+    margin-right: 8px;
+}
+
+.user-contact textarea {
+    display: block;
+    width: 100%;
+}

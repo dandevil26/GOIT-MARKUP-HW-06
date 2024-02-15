@@ -333,6 +333,37 @@
   </footer>
   <div class="backdrop is-hidden" data-modal>
     <div class="modal">
+      <h2>Leave your contacts and we will call you back</h2>
+      <form class="user-contact">
+        <label class="user-contact-label">
+          Name
+          <input type="text" placeholder="Full Name" name="full_name">
+        </label>
+
+        <label class="user-contact-label">
+          Telephone
+          <input type="tel" placeholder="phone" name="phone">
+        </label>
+
+        <label class="user-contact-label">
+          E-mail
+          <input type="email" placeholder="user@domain.com" name="email">
+        </label>
+
+        <label class="user-contact-comment">
+          Comments
+          <textarea name="comments" placeholder="Text input" rows="10"></textarea>
+        </label>
+
+        <label class="user-contact-checkbox">
+          <input type="checkbox" name="agreement">
+          I accept the terms and conditions of the Privacy Policy
+        </label>
+
+        <button type="submit">Send</button>
+      </form>
+
+
       <button class="modal-close" data-modal-close>
         <svg class="modal-close-icon">
           <use href="./images/icons.svg#modal-close"></use>

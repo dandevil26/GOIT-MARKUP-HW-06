@@ -678,6 +678,7 @@ address {
 
 .modal {
     padding: 30px;
+    width: 408px;
 }
 
 .user-contact {
@@ -689,7 +690,9 @@ address {
     margin-top: 12px;
 }
 
-.user-contact input {
+.user-contact input,
+.user-contact textarea {
+    margin-top: 4px;
     display: block;
     width: 100%;
 }
@@ -704,7 +707,3 @@ label.user-contact-checkbox {
     margin-right: 8px;
 }
 
-.user-contact textarea {
-    display: block;
-    width: 100%;
-}
